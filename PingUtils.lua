@@ -9,7 +9,7 @@ assert(menuLoaded, "MenuLib not found, please install it!")
 assert(MenuLib.Version >= 1.43, "MenuLib version is too old, please update it!")
 
 --[[ Menu ]]
-local Menu = MenuLib.Create("Ping utils", MenuFlags.AutoSize)
+local Menu = MenuLib.Create("Ping Utills", MenuFlags.AutoSize)
 Menu.Style.TitleBg = { 10, 200, 100, 255 }
 Menu.Style.Outline = true
 
